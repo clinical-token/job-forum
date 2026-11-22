@@ -229,7 +229,9 @@ h2 {
   margin-bottom: 0.45rem;
 }
 
-.berkeley { padding-top: 1rem; }
+.experience { padding-top: 1rem; }
+
+.experience h2 { max-width: 16em; }
 
 .frames {
   margin-top: 1.6rem;
