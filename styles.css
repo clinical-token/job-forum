@@ -364,6 +364,10 @@ h2 {
 
 .conversation p { max-width: var(--measure); }
 
+.people a {
+  color: #f3e6cc;
+}
+
 .conversation a.button {
   background: white;
   color: var(--navy);
