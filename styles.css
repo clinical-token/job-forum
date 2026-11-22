@@ -90,6 +90,18 @@ button:focus-visible {
   background: var(--navy);
 }
 
+.hub-banner {
+  margin: 0;
+  background: var(--navy);
+  color: white;
+  text-align: center;
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 3.4vw, 2.5rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  padding: 0.9rem 1.25rem;
+}
+
 .hero {
   position: relative;
   overflow: hidden;
