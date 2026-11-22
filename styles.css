@@ -124,9 +124,18 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 520; letter-spacing: -0.02e
 
 h1 {
   margin: 0;
-  font-size: clamp(2.7rem, 5.4vw, 4.6rem);
+  font-size: clamp(2.6rem, 5vw, 4.15rem);
   line-height: 1.02;
-  max-width: 11ch;
+  max-width: 24ch;
+  color: var(--navy);
+}
+
+.subhead {
+  margin: 1rem 0 0;
+  max-width: 22rem;
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 2.1vw, 1.75rem);
+  line-height: 1.25;
   color: var(--navy);
 }
 
@@ -402,7 +411,7 @@ h2 {
 
   .wide { grid-row: auto; min-height: 240px; }
 
-  h1 { max-width: 12ch; }
+  h1 { max-width: 24ch; }
 
   .hero { padding-top: 2.6rem; }
 }
